@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Other</title>
+</head>
+<link id="style" rel="stylesheet" href="css/light.css">
+<script src="js/scripts.js"></script>
+<body>
+    <div id="toolbar">
+        <div id="buttons">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="game.html">Game</a>
+            <a href="#" onclick="switchmode()">Mode</a>
+        </div>
+        <a href="#" onclick="showhide()" id="hamburger">≡</a>
+    </div>
+    <p id="textBox">This is some text.</p>
+    <button onclick="writeText()">prez me!!11</button>
+    <label>red: <input onchange="changeBG()" type="range" id="red" min="0" max="255"></label>
+    <label>green: <input onchange="changeBG()" type="range" id="green" min="0" max="255"></label>
+    <label>blue: <input onchange="changeBG()" type="range" id="blue" min="0" max="255"></label>
+</body>
+<script>
+    let textBox = document.getElementById("textBox");
+    let red = document.getElementById("red");
+    let green = document.getElementById("green");
+    let blue = document.getElementById("blue");
+
+    function writeText() {
+        textBox.innerHTML = "The is some <i>OTHER<i> text"
+    }
+
+    function changeBG() {
+        const rgbColor = "rgb(" + red.value + "," + green.value + "," + blue.value + ")";
+        document.body.style.backgroundColor = rgbColor;
+    }
+
+</script>
+</html>

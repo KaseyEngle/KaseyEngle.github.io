@@ -4,18 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Skibidi Sigma Website</title>
+    <style>
+        #toptext {
+            border: solid 1px;
+            border-radius: 0%;
+        }
+    </style>
 </head>
     <link id="style" rel="stylesheet" href="css/light.css">
     <script src="js/scripts.js"></script>
 <body>
-    <div id="toolbar">
+        <div id="content">
+        <div id="toolbar">
         <div id="buttons">
-            <a href="index.html">Home</a>
-            <a href="about.html">About</a>
-            <a href="#" onclick="switchmode()">Mode</a>
-                <a href="game/Get To School 6/index.html">Game</a>
+                <a href="about.html">About</a>
+                <a href="game.html">Game</a>
+                <a href="javascripttest.html">Other</a>
+                <a href="#" onclick="switchmode()">Mode</a>
+            </div>
+            <a href="#" onclick="showhide()" id="hamburger">≡</a>
         </div>
-        <a href="#" onclick="showhide()">≡</a>
+        <div>
+            <p id="toptext">This is a website</p>
+        </div>
     </div>
 </body>
 </html>

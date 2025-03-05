@@ -5,6 +5,8 @@ a, a:visited {
     padding: 4px;
     border-radius: 8px;
     text-decoration: none;
+    display: flex;
+    flex-direction: column;
 }
 a:hover {
     background-color: #ff0000;
@@ -20,4 +22,33 @@ body{
 
 #toolbar {
     display: flex;
+    flex-direction: column;
+    width: 50px;
+    text-align: center;
+}
+
+#hamburger{
+    height: 16px;
+}
+
+p {
+    color: #FFF;
+    padding: 4px;
+    border-radius: 8px;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+}   
+
+#content{
+    display: flex;
+    justify-content: flex-start;
+    margin: auto;
+}
+
+#toptext{
+    display: flex;
+    justify-content: flex-start;
+    margin-right: 10px;
+    
 }
