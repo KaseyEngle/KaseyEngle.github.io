@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Super Fun Game</title>
+    <style>
+        #play {
+            transition-duration: 0.2s;
+            transition-delay: 0.1s;
+        }
+    </style>
+</head>
+<body>
+    <div><b>Score:</b></div>
+    <div id="score"></b></b>0</b></div>
+    <button id="play" onmouseover="move()" onclick="myFunction()">Click here to play!</button>
+</body>
+<script>
+    let playbutton = document.getElementById("play");
+
+    function move() {
+        let x = Math.random() * window.innerWidth;
+        let y = Math.random() * window.innerHeight;
+        playbutton.style.position = 'absolute';
+        playbutton.style.top = y + "px";
+        playbutton.style.left = x + "px"; 
+    }
+
+    move();
+
+    function myFunction(){
+        const numberElement = document.getElementById("score");
+        const number = parseInt(numberElement.innerText, 10) + 1;
+        numberElement.innerText = number;
+    }
+
+</script>
+</html>
