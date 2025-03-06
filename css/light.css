@@ -4,8 +4,6 @@ a, a:visited {
     padding: 4px;
     border-radius: 8px;
     text-decoration: none;
-    display: flex;
-    flex-direction: column;
 }
 
 a:hover {
@@ -18,32 +16,13 @@ a:hover {
 
 #toolbar {
     display: flex;
-    flex-direction: column;
-    width: 50px;
-    text-align: center;
+
 }
 
 #hamburger{
     height: 16px;
 }
 
-p {
-    color: #000;
-    padding: 4px;
-    border-radius: 8px;
-    text-decoration: none;
-    display: flex;
-}
-
-#content{
-    display: flex;
-    justify-content: flex-start;
-    margin: auto;
-}
-
-#toptext{
-    display: flex;
-    justify-content: flex-start;
-    margin-right: 10px;
-    
+#othertext {
+    margin: 10px;
 }
