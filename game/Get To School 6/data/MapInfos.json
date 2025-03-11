@@ -15,12 +15,14 @@ null,
 {"id":13,"expanded":false,"name":"bpass dungeon 1-3","order":10,"parentId":12,"scrollX":2462,"scrollY":1143.5,"quick":false},
 {"id":14,"expanded":false,"name":"MAP014","order":7,"parentId":4,"scrollX":811,"scrollY":1134.5,"quick":false},
 {"id":15,"expanded":false,"name":"fpass","order":11,"parentId":0,"scrollX":1356,"scrollY":504.5,"quick":false},
-{"id":16,"expanded":true,"name":"Atown","order":15,"parentId":0,"scrollX":951,"scrollY":545.5,"quick":false},
+{"id":16,"expanded":true,"name":"Atown","order":15,"parentId":0,"scrollX":819,"scrollY":1495.5,"quick":false},
 {"id":17,"expanded":true,"name":"Atown Bank","order":16,"parentId":16,"scrollX":819,"scrollY":502.5,"quick":false},
 {"id":18,"expanded":true,"name":"Blacksmith","order":18,"parentId":16,"scrollX":811,"scrollY":449.5,"quick":false},
 {"id":19,"expanded":false,"name":"House Basement","order":3,"parentId":2,"scrollX":0,"scrollY":0,"quick":false},
 {"id":20,"expanded":true,"name":"Shop 1","order":22,"parentId":16,"scrollX":811,"scrollY":449.5,"quick":false},
 {"id":21,"expanded":false,"name":"Atown Bank Basement","order":17,"parentId":17,"scrollX":811,"scrollY":449.5,"quick":false},
 {"id":22,"expanded":false,"name":"Blacksmith Basement","order":19,"parentId":18,"scrollX":811,"scrollY":457.5,"quick":false},
-{"id":23,"expanded":false,"name":"Shop 2","order":23,"parentId":16,"scrollX":811,"scrollY":449.5,"quick":false}
+{"id":23,"expanded":false,"name":"Shop 2","order":23,"parentId":16,"scrollX":811,"scrollY":449.5,"quick":false},
+{"id":24,"expanded":false,"name":"Crazy Man's House","order":24,"parentId":16,"scrollX":811,"scrollY":449.5,"quick":false},
+{"id":25,"expanded":false,"name":"Atown Inn","order":25,"parentId":16,"scrollX":811,"scrollY":449.5,"quick":false}
 ]
